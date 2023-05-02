@@ -28,12 +28,12 @@ lap_num = 1
 try:
     while True:
         input()
-        lap_num_str = str(lap_num)
+        lap_num_str = f"{str(lap_num)}:"
         lap_time = str(round(time.time() - last_time, 2))
         lap_parenthesis = f"({lap_time})"
         total_time = str(round(time.time() - start_time, 2))
         print(
-            f"Lap # {lap_num_str.rjust(3)}: {total_time.rjust(10)} {lap_parenthesis.rjust(10)}",
+            f"Lap # {lap_num_str.ljust(4)} {total_time.rjust(12)} {lap_parenthesis.rjust(12)}",
             end="",
         )
         lap_num += 1
