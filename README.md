@@ -1,8 +1,7 @@
 
 # Prettified Stopwatch
 
-Expand the stopwatch project from this chapter so that it uses the rjust() and ljust() string methods to “prettify” the output.  
-(These methods were covered in Chapter 6.)
+Expand the stopwatch project from this chapter so that it uses the rjust() and ljust() string methods to “prettify” the output. (These methods were covered in Chapter 6.)
 
 Instead of output such as this:  
 ***  
